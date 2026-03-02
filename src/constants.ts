@@ -21,8 +21,8 @@ export const REASONS: Reason[] = [
   {
     id: 3,
     date: new Date('2026-03-05T00:00:00'),
-    title: "Hayatımın İçine Çok Güzel Karıştın",
-    content: "Plansız geldin belki hayatıma. Ama şimdi baktığımda, ‘İyi ki’ dediğim en net şey sensin. Alışkanlık değil, mecburiyet değil… Bilerek, isteyerek seviyorum seni."
+    title: "İlk Gördüğüm Anda Bir Şey Oldu",
+    content: "Seni ilk gördüğüm anı hatırlıyorum.\nİçimde tarif edemediğim bir his olmuştu.\nDünya durmuş gibi,\nSanki sadece sen ve ben varmışız gibi.\n\nO an anlamamış olabilirim,\nama şimdi biliyorum…\n\nO his boşuna değildi.\n\nİyi ki seni tanımışım.\nGerçekten, iyi ki."
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ export const REASONS: Reason[] = [
   {
     id: 6,
     date: new Date('2026-03-09T00:00:00'),
-    title: "Sensiz Bir Senaryo Düşünemiyorum",
-    content: "Bu 6 gün boyunca sana seni neden sevdiğimi anlattım. Ama gerçek şu ki, sebeplerden bağımsız seviyorum seni. Çünkü sen varsın. Ve hayatımda olman bana yetiyor."
+    title: "Sadece Sen Olduğun İçin",
+    content: "Bu 6 gün boyunca sana 'iyi ki varsın' dememdeki bazı nedenleri anlattım. Ama aslında en büyük sebep sensin. Varlığın, gülüşün ve hayatımda olman bana yetiyor.\n\nİyi ki varsın sevgilim. Her anımda, her hayalimde iyi ki varsın."
   }
 ];

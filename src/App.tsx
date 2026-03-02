@@ -57,8 +57,8 @@ export default function App() {
           </div>
           
           <h1 className="romantic-heading text-5xl sm:text-7xl text-stone-900 mb-6 leading-tight">
-            Seni Sevmem İçin <br />
-            <span className="text-rose-400">6 Sebep</span>
+            İyi ki varsın <br />
+            dememdeki <span className="text-rose-400">6 sebep</span>
           </h1>
           
           <p className="small-caps mb-10">
@@ -232,13 +232,12 @@ export default function App() {
                   >
                     <div className="space-y-6">
                       <p className="romantic-heading text-4xl text-stone-900 leading-tight">
-                        "Bu akşam iftarda, <br />
-                        gözlerinin içine bakarken <br />
-                        asıl sürprizi göreceksin."
+                        "Son adım kaldı. <br />
+                        Hazırlan."
                       </p>
                       <div className="h-px bg-rose-100 w-16 mx-auto" />
                       <p className="small-caps text-rose-500 !opacity-100">
-                        Saat 19:30’da seni almaya geliyorum.
+                        Saat 17:00’da seni almaya geliyorum.
                       </p>
                     </div>
                     
@@ -258,22 +257,11 @@ export default function App() {
           )}
         </AnimatePresence>
 
-        <footer className="text-center space-y-8 pb-20">
+        <footer className="text-center space-y-4 pb-20">
           <div className="h-px w-8 bg-stone-200 mx-auto" />
-          <div className="space-y-2">
-            <p className="small-caps">
-              Sonsuza Dek 🤍
-            </p>
-            <button 
-              onClick={() => {
-                localStorage.removeItem('opened_reasons');
-                window.location.reload();
-              }}
-              className="text-[10px] text-stone-300 hover:text-stone-400 transition-colors uppercase tracking-widest"
-            >
-              İlerlemeyi Sıfırla
-            </button>
-          </div>
+          <p className="small-caps">
+            Sonsuza Dek 🤍
+          </p>
         </footer>
       </div>
     </div>
