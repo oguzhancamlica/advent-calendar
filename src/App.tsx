@@ -57,8 +57,8 @@ export default function App() {
           </div>
           
           <h1 className="romantic-heading text-5xl sm:text-7xl text-stone-900 mb-6 leading-tight">
-            İyi ki varsın <br />
-            dememdeki <span className="text-rose-400">6 sebep</span>
+            Seni çok seviyorum <br />
+            iyi ki varsın <span className="text-rose-400 inline-block animate-pulse">❤️</span>
           </h1>
           
           <p className="small-caps mb-10">
@@ -137,7 +137,7 @@ export default function App() {
                             {reason.content}
                           </p>
                           
-                          {reason.id === 6 && (
+                          {reason.id === 7 && (
                             <motion.div 
                               initial={{ opacity: 0, y: 20 }}
                               animate={{ opacity: 1, y: 0 }}
@@ -213,7 +213,7 @@ export default function App() {
                     <div className="space-y-4">
                       <h2 className="romantic-heading text-4xl text-stone-900">Son Bir Şey...</h2>
                       <p className="text-stone-500 font-light leading-relaxed">
-                        Bu 6 gün sadece bir başlangıçtı. <br />
+                        Bu 7 gün sadece bir başlangıçtı. <br />
                         Asıl sürpriz için hazır mısın?
                       </p>
                     </div>

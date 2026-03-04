@@ -34,12 +34,18 @@ export const REASONS: Reason[] = [
     id: 5,
     date: new Date('2026-03-07T00:00:00'),
     title: "Gelecek Hayalimde Sen Varsın",
-    content: "Bazen hayal kurarken fark ediyorum. Ev, yolculuk, kahvaltı, tatil… Hepsinde sen varsın. Geleceği planlarken yanında olduğumu düşünmek bile içimi ısıtıyor.\n\nYarın son sebep… Ve küçük bir sürpriz var."
+    content: "Bazen hayal kurarken fark ediyorum. Ev, yolculuk, kahvaltı, tatil… Hepsinde sen varsın. Geleceği planlarken yanında olduğumu düşünmek bile içimi ısıtıyor."
   },
   {
     id: 6,
+    date: new Date('2026-03-08T00:00:00'),
+    title: "Her Şeyi Seninle Paylaşmak",
+    content: "Günün en güzel anı da, en kötü anı da olsa ilk sana anlatmak istiyorum. Çünkü biliyorum ki beni en iyi sen anlarsın, en içten sen dinlersin. Hayat seninle paylaşınca güzel."
+  },
+  {
+    id: 7,
     date: new Date('2026-03-09T00:00:00'),
     title: "Sadece Sen Olduğun İçin",
-    content: "Bu 6 gün boyunca sana 'iyi ki varsın' dememdeki bazı nedenleri anlattım. Ama aslında en büyük sebep sensin. Varlığın, gülüşün ve hayatımda olman bana yetiyor.\n\nİyi ki varsın sevgilim. Her anımda, her hayalimde iyi ki varsın."
+    content: "Bu 7 gün boyunca sana 'iyi ki varsın' dememdeki bazı nedenleri anlattım. Ama aslında en büyük sebep sensin. Varlığın, gülüşün ve hayatımda olman bana yetiyor.\n\nİyi ki varsın sevgilim. Her anımda, her hayalimde iyi ki varsın."
   }
 ];
